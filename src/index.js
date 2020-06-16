@@ -2,7 +2,7 @@ import React from "react";
 import { render } from "react-dom";
 
 function Hi() {
-  return <h1> hi </h1>;
+  return <p>Hi.</p>;
 }
 
 render(<Hi />, document.getElementById("app"));
