@@ -6,11 +6,11 @@ const Header = () => {
 
   return (
     <nav>
-      <NavLink to="/" activeStyle="activeStyle" exact>
+      <NavLink to="/" activeStyle={activeStyle} exact>
         Home
       </NavLink>{" "}
       {" | "}
-      <NavLink to="/about" activeStyle="activeStyle">
+      <NavLink to="/about" activeStyle={activeStyle}>
         About
       </NavLink>
     </nav>
